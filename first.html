@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> My First Page</title>
+</head>
+
+<style>
+body{
+	background-color: lightyellow;
+     margin-left: 80px;
+}
+
+h2 {
+	color: lightblue;
+}
+label{
+	font-family:"Courier New";
+    font-size: 15px;
+}
+  .button {
+ background-color: #80ccff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button1:hover {background-color: #1aa3ff;} /* Green */
+.button2 {margin-left: 20px;}
+.button2:hover {background-color: #1aa3ff;}
+ </style>
+<body>
+
+<h2>My First Page</h2>
+
+<form>
+	<label for="fname">First Name:</label><br>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="lname">Last Name:<label><br>
+	<input type="text" id="lname" name="lname"><br><br>
+	<label for="age">Age:</label><br>
+	<select id="age" name="age">
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+	</select><br><br>
+	<label for="city">City:</label><br>
+	<select id="city" name="city">
+		<option value="galati">Galati</option>
+		<option value="braila">Braila</option>
+		<option value="brasov">Brasov</option>
+		<option value="cluj">Cluj</option>
+	</select><br><br>
+	<label for="describe">Describe yourself:</label><br>
+	<textarea name="message" rows="10" cols="30">Mesaj.</textarea>
+	<br><br><br>
+    <button class="button button1">Cancel</button>
+	<button class="button button2">Submit</button>
+</form>
+
+</body>
+</html>
+
+
